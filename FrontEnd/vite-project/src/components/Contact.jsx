@@ -14,7 +14,7 @@ const Contact = () => {
     setLoading(true);
     try {
       const { data } = await axios.post(
-        "https://full-stack-gym-application-pidw.vercel.app/",
+        "https://mateen-gym-application-backend.vercel.app//",
         {
           name,
           email,
